@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <blog-post-creator></blog-post-creator>
+    <h1>Blog Post Creator</h1>
+    <blog-post-creator class="rteditor"></blog-post-creator>
   </div>
 </template>
 
@@ -15,5 +16,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+  margin-left: 20px;
+  margin-top:10px;
+}
+
+.rteditor {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 </style>
